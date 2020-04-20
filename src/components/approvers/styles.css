@@ -1,0 +1,145 @@
+.approval-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.approval-sub-heading {
+  display: flex;
+  font-size: 12px;
+  line-height: 14px;
+  color: #222222;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding: 5px 5px 5px 20px;
+  text-transform: capitalize;
+}
+
+.approver-image-container {
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.approver-rounded-image {
+  border-radius: 12px;
+}
+
+.approvers-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cell-index {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell-details {
+  display: flex;
+  flex-direction: row;
+  flex: 5;
+}
+
+.cell-tick {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  display: inline;
+}
+
+.email {
+  font-size: 12px;
+  line-height: 14px;
+  color: #222222;
+  opacity: 0.5;
+  margin-left: 5px;
+  display: inline;
+}
+
+.date {
+  font-size: 12px;
+  line-height: 14px;
+  color: #222222;
+  opacity: 0.5;
+}
+
+.tick-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.index-text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #222222;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-bg {
+  background: rgba(34, 34, 34, 0.1);
+}
+
+.approved {
+  background-color: #26c281;
+}
+
+.gray-border {
+  border: 1px solid rgba(34, 34, 34, 0.1);
+}
+
+.approver-details {
+  min-width: 200px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.field {
+  float: left;
+  align-self: start;
+  align-items: center;
+  text-align: left;
+  line-height: 16px;
+  text-overflow: ellipsis;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.pending-list-separator {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #222222;
+  opacity: 0.1;
+  margin: 20px 20px 10px 20px;
+  padding: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .field {
+    width: 200px;
+  }
+  .approver-image {
+    min-width: 30px;
+  }
+}

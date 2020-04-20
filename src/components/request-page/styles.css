@@ -1,0 +1,102 @@
+.request-page {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.request-view-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(34, 34, 34, 0.05);
+}
+
+.request-header {
+  display: flex;
+  align-items: center;
+}
+
+.expense-summary {
+  flex: 2;
+  border-right: 1px solid rgba(34, 34, 34, 0.05);
+}
+
+.border {
+  border: 1px solid green;
+  width: fit-content;
+}
+
+.approver {
+  flex: 1;
+}
+
+.approval-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 5px;
+  flex: 2;
+}
+
+.approval-buttons-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 300px;
+  flex-basis: 100%;
+}
+
+.in-req-cont {
+  display: flex;
+}
+
+.outside-req-cont {
+  display: none;
+}
+
+.button {
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 36px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.green {
+  background: #26c281;
+}
+.orange {
+  background: #ff6448;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .approval-buttons {
+    display: block;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+    width: 98%;
+  }
+
+  .button {
+    width: 45%;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .in-req-cont {
+    display: none;
+  }
+
+  .outside-req-cont {
+    display: flex;
+  }
+}
