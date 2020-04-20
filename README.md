@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots
 
-![Drag Racing](./device-preview-1.png)
-![Drag Racing](./device-preview-2.png)
+![Device Preview](./device-preview-1.png)
+![Device Preview](./device-preview-2.png)
 
-![Drag Racing](./browser-preview.png)
+![Browser Preview](./browser-preview.png)
